@@ -1,0 +1,55 @@
+body{	
+	background-image: url('../../images/background.gif');
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#container {
+	background-color: white;
+	border: 10px solid white;
+	width: 800px;
+	margin: 0px auto;
+}
+
+#title{
+	background-color: #A8F0F0;
+	width: 100%;
+}
+
+#header{
+	text-align: right;
+}
+
+#header h2{
+	font-size: 14pt;
+}
+
+.sub-content{		
+	background-color: #E8FBFB;
+	border-radius: 15px;
+	border: 4px solid #C2E9E9;		
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#content span.border-date{
+	border-bottom: 2px dashed purple;
+}
+
+ div#content-left{    
+    float: left;
+    width: 20%;
+	border: 5px solid lightskyblue;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+div#content-right{    
+    float: right;
+    width: 77%;
+}
+
+.foot-bar{
+	clear: both;
+}
