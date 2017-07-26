@@ -1,0 +1,86 @@
+body{    
+    font-family: "Georgia", Garamond, "sans-serif";
+    font-size: 11pt;
+    width: 1024px;
+    margin: 0 auto;
+    background-image: url('../../images/silverware.jpg');
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #404040;        
+}
+
+h1, h2{    
+    color: #A4A400;
+    background-color: #F0F0F0 ;    
+    font-size: 18pt;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial";
+    text-decoration: underline;
+    display: inline-block;
+    letter-spacing: 0.25em;
+}
+
+.headingTitle{
+    text-align: center;    
+}
+
+.headingTitle h1 {
+    font-size: 22pt;
+}
+
+a{
+    color: #A4A400;
+}
+abbr{
+    text-decoration: underline;
+}
+
+.userComment blockquote{
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+.userComment blockquote em{
+    font-weight: bold;
+}
+.userComment .userName{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.searchLink a{
+    display: block;
+}
+.validatorTool{
+    display: inline;
+    clear: both;
+}
+
+footer div{
+    float: left;
+}
+
+footer div.copyRight{
+    padding-top: 10px;
+    clear: both;
+    text-align: right;
+    display: block;
+    font-family: monospace;
+    line-height: 2px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li:before{
+    content: url('../../images/pie_icon.gif');
+    margin-right: 10px;
+}
+
+.pieCaption p {
+    line-height: 3px;
+}
+
+section div.contentRow{
+    margin-top: 0.25em;
+    border-bottom: 1px solid #c0c0c0;
+}
