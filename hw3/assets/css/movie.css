@@ -1,0 +1,148 @@
+/*
+Author: kloem
+Email: khemroat@gmail.com
+*/
+
+body{    
+    background-image: url('../../images/background.png');
+    font-family: "Verdana", Tahoma, "sans-serif";
+    font-size: 8pt;
+    margin: 0;
+    padding: 0; 
+}
+
+#banner{
+    display: block;
+    text-align: center; 
+    background-image: url('../../images/bannerbg.png');
+    height: 50px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, "san-serif";
+    text-shadow: 3px 3px #999999;
+}
+
+#content{    
+    width: 800px;
+    margin: 0 auto;
+    border: 4px gray solid;
+    border-radius: 20px;
+}
+
+#content-right{
+    float:right;
+    width: 250px;
+    background-color:#A2B964
+}
+
+#content-right, .overview-img img{
+    border-radius: 0 15px 0 0;
+}
+
+#content-left{    
+    float: left;
+    width: 550px;
+}
+
+#banner-left{
+    background-image: url('../../images/rbg.png');
+    height: 83px;
+    width: 100%;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    border-radius: 15px 0 0 0;
+}
+
+#banner-left img{
+    vertical-align: sub;
+    border-radius: 15px 0 0 0;
+}
+
+#container-review {
+    font-size:11px; 
+}
+
+#section-left{
+    float: left;
+}
+
+#section-right{
+    float: right;
+}
+
+#section-left, #section-right{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 47%;
+}
+
+.reviews{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px gray solid;
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+p.review img{
+    float: left;
+    margin-right: 5px;    
+}
+
+.container-review{
+    margin-bottom: 20pt;
+}
+
+.cls-italic {
+    font-style: italic;
+}
+
+ul li{
+    list-style: none;
+}
+
+#content-right   dl{
+    padding: 0 10px 0 10pt;
+}
+
+#content-right dl dt{
+    font-weight: bold;
+    padding-top: 10pt;
+}
+
+#content-right dt, #content-right dd{
+    font-size: 8pt;
+    font-family: Arial, "sans-serif";
+}
+
+#content-right dd ul{
+    padding: 0;
+}
+
+span.review-img img {
+    float: left;
+}
+
+#bottom-page{    
+    clear: both;    
+    text-align: center;
+    padding: 5px;
+    background-color:#A2B964; 
+    border-radius: 0 0 15px 15px;
+}
+
+div#validation-tool{
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
