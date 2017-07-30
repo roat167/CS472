@@ -5,9 +5,10 @@
             <legend>Returning User:</legend>
             <p>
                 <label><strong>Name:</strong></label>
-                </p><div class="column">
-                   <input name="name" type="text" size="16">
-                </div>
+            </p>
+            <div class="column">
+                <input name="name" type="text" size="16">
+            </div>
             <p></p>   
             <br>
             <p>
